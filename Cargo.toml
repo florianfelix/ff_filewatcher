@@ -1,0 +1,8 @@
+[package]
+name = "ff_filewatcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+notify = { version = "6.1.1", default-features = false }
+tokio = { version = "1.40.0", features = ["rt", "rt-multi-thread", "macros", "sync"] }
